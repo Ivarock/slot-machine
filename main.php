@@ -84,7 +84,6 @@ while (true) {
                 echo PHP_EOL;
             }
             foreach ($winningLines as $line) {
-                $symbolPosition = $line;
                 $symbols = [];
                 foreach ($line as $coordinates) {
                     $symbols[] = $board[$coordinates[0]][$coordinates[1]];
